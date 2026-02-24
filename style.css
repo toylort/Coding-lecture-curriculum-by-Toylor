@@ -1,0 +1,60 @@
+*{
+  background-color: rgb(184, 255, 215);
+}
+h1,h2{
+  
+  color: rgb(2, 2, 108);
+}
+
+ol{
+  color: grey;
+}
+
+.TinyTap{
+  width: 160px;
+  height: 40px;
+  background-color: rgb(218, 218, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  animation: font-size 0.3s;
+  animation: hover 1s;
+}
+
+.TinyTap:hover{
+  background-color: rgb(250, 224, 79);
+  font-size: 15px;
+}
+
+.TinyTap:active{
+  font-size:10px ;
+}
+
+
+div button{
+  margin: 10px;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+   background-color: rgb(218, 218, 0);
+  border: none;
+  cursor: pointer;
+  animation: font-size 0.3s;
+  animation: hover 1s;
+}
+
+div button:hover{
+  background-color: rgb(250, 224, 79);
+  font-size: 15px;}
+
+table,th,tr,td {
+  table-layout: fixed;
+  border: solid black 1px;
+}
+
+
+.tr1:nth-child(odd){
+  background-color: rgb(250, 224, 79);
+  color: blueviolet;
+}
+
